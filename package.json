@@ -1,0 +1,21 @@
+{
+  "name": "battlenet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./public/css/main.css --watch"
+  },
+  "devDependencies": {
+    "daisyui": "^4.4.22",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "swiper": "^11.0.5"
+  }
+}

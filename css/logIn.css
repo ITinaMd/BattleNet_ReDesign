@@ -1,0 +1,221 @@
+@import url(./setting.css);
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #15171e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .middle {
+  width: 600px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container > .middle > div > h1 {
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
+}
+
+.container > .middle > div:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.container > .middle > div:nth-of-type(3) > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(92, 153, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .middle > div:nth-of-type(3) > div:nth-of-type(1) {
+  background: white;
+}
+
+.container > .middle > div:nth-of-type(3) > div:nth-of-type(2) {
+  background: #1f8ff8;
+}
+
+.container > .middle > div:nth-of-type(3) > div:nth-of-type(3) {
+  background: white;
+}
+
+.container > .middle > div:nth-of-type(3) > div > i {
+  font-size: 20px;
+}
+
+.container > .middle > div:nth-of-type(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .middle > div:nth-of-type(4) > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .middle > div:nth-of-type(4) > div > i {
+  font-size: 20px;
+}
+
+.container > .middle > div:nth-of-type(4) > div:nth-of-type(1) {
+  background: #107c10;
+  color: white;
+}
+
+.container > .middle > div:nth-of-type(4) > div:nth-of-type(2) {
+  background: #1f8ff8;
+}
+
+.container > .middle > div:nth-of-type(4) > div:nth-of-type(3) {
+  background: red;
+  color: white;
+}
+
+.container > .middle > div:nth-of-type(4) > div:nth-of-type(4) {
+  background: #fff;
+}
+
+.container > .middle > div:nth-of-type(5) {
+  margin-top: 30px;
+}
+
+.container > .middle > div:nth-of-type(5) > h1 {
+  font-size: 20px;
+  position: relative;
+}
+
+.container > .middle > div:nth-of-type(5) > h1::before {
+  content: "";
+  width: 140px;
+  height: 2px;
+  background: rgb(107, 106, 106);
+  position: absolute;
+  left: -160px;
+  top: 11px;
+}
+
+.container > .middle > div:nth-of-type(5) > h1::after {
+  content: "";
+  width: 140px;
+  height: 2px;
+  background: rgb(107, 106, 106);
+  position: absolute;
+  right: -160px;
+  top: 11px;
+}
+
+.container > .middle > div:nth-of-type(4) > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(92, 153, 51);
+}
+
+.container > .middle > div:nth-of-type(6) > form {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container > .middle > div:nth-of-type(6) > form > input {
+  width: 450px;
+  height: 40px;
+  margin-top: 15px;
+  background: none;
+  border: 1px solid rgb(107, 106, 106);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.container > .middle > div:nth-of-type(6) > form > input#submit {
+  margin-top: 40px;
+  background: #0074e0;
+  border: 1px solid #3a90e1;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.container > .middle > div:nth-of-type(7) {
+  margin-top: 40px;
+}
+
+.container > .middle > div:nth-of-type(7) > a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: #0074e0;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container > .middle > div:nth-of-type(7) > a:hover {
+  text-decoration: underline;
+  color: #3a90e1;
+}
+
+/* end box login one */
+
+/* start box login two  */
+
+div.box-two {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #15171e;
+}
+
+div.box-two > nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: rgb(116, 115, 115);
+}
+
+div.box-two > nav > a {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(180, 178, 178);
+}
+
+div.box-two>p{
+    color: rgb(91, 90, 90);
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+/* end box login two  */
